@@ -57,7 +57,7 @@ class App extends Component {
 
   }
 
-  render() {
+  render() {    
 
     let persons = null;
 
@@ -81,13 +81,13 @@ class App extends Component {
       );
     }
 
-
+  
     return (
-      <div className="App">
-        <h1> Heloo Dimitris</h1>
-        <button onClick= {this.toggleNames}>Switch name</button>        
-        {persons}
-      </div>
+        <div className="App">
+          <h1> Heloo Dimitris</h1>
+          <button onClick= {this.toggleNames}>Switch name</button>        
+          {persons}
+        </div>
       
     );
   }
